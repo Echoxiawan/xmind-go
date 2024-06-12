@@ -153,16 +153,16 @@ func AddProperty(topic *xmind.Topic) {
 	topic.Style = xmind.Style{
 		Id: topic.ID,
 		Properties: xmind.Properite{
-			LineColor:        "#1414ff",
-			FoColor:          "#14ff14",
+			LineColor:        "#cccccc", // 修改为灰色
+			FoColor:          "#000000", // 修改为黑色
 			ShapeClass:       "org.xmind.topicShape.roundedRect",
 			BorderLineWidth:  "1pt",
 			LineClass:        "org.xmind.branchConnection.roundedfold",
 			LineWidth:        "2pt",
-			FoFontFamily:     "NeverMind",
+			FoFontFamily:     "Helvetica", // 修改为默认字体
 			FoFontStyle:      "normal",
-			FoFontWeight:     600,
-			FoFontSize:       "14pt",
+			FoFontWeight:     400, // 修改为正常
+			FoFontSize:       "12pt", // 修改为默认大小
 			FoTextTransform:  "manual",
 			FoTextDecoration: "none",
 			SvgFill:          "#ffffff",
